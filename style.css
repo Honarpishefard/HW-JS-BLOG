@@ -1,0 +1,61 @@
+/******************css reset******************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/******************js elements******************/
+
+.show-title {
+    font-size: 2rem;
+    width: 100%;
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 0;
+    display: flex;
+    gap: 80%;
+}
+
+.show-writer {
+    font-size: 1.5rem;
+    color: gray;
+    margin-left: 5rem;
+    margin-bottom: 0;
+}
+
+.show-desc {
+    font-size: 2rem;
+    margin-left: 3rem;
+    margin-top: 1.8rem;
+    inline-size: 95%;
+    overflow-wrap: break-word;
+}
+
+
+.tags {
+    color: blue;
+    font-size: 1.5rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+#postBody{
+    width: 45%;
+}
+
